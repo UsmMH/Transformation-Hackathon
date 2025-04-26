@@ -1,0 +1,26 @@
+{
+  "name": "ksu-admin-app",
+  "version": "1.0.0",
+  "description": "KSU Course Registration Admin Application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ksu",
+    "admin",
+    "registration",
+    "electron"
+  ],
+  "author": "KSU",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^28.3.3",
+    "electron-builder": "^24.6.3"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.0"
+  }
+}
